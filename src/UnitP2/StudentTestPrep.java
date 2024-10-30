@@ -11,9 +11,9 @@ public class StudentTestPrep {
         return enrolledCount;
     }
 
-    public StudentTestPrep(String name, int stCode, String schoolCode){
+    public StudentTestPrep(String name, String schoolCode){
         this.name = name;
-        this.stCode = stCode;
+        this.stCode = enrolledCount + 1;
         this.schoolCode = schoolCode;
         this.enrolledCount = enrolledCount + 1;
     }

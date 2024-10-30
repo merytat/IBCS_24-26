@@ -3,10 +3,10 @@ package UnitP2;
 public class StTestPrepRunner {
     public static void main(String[] args) {
         StudentTestPrep franco =
-                new StudentTestPrep("Franco", 0001, "TKS");
+                new StudentTestPrep("Franco", "TKS");
         System.out.println(StudentTestPrep.getEnrolledCount());
         StudentTestPrep omar =
-                new StudentTestPrep("Omar", 0002, "TKS");
+                new StudentTestPrep("Omar", "TKS");
         System.out.println(StudentTestPrep.getEnrolledCount());
     }
 }
