@@ -8,6 +8,9 @@ public class GradeAverage {
 
         //loop: control variable
         int grade = 1;
+        //max algorithm
+        int max = grade;
+        int min = 1000;
         //counter: initialize counter
         int counter = 0;
         //accum: initialize accum
@@ -18,6 +21,12 @@ public class GradeAverage {
             //loop: change CV (read input)
             System.out.print("Enter grade 0 to exit: ");
             grade = kb.nextInt();
+            if(grade > max){ //is there a higher grade than max
+                max = grade;
+            }
+            if(grade!=0 && grade < min){
+                min = grade;
+            }
             //counter: increase
             counter++;
             //accum: add the input
@@ -27,6 +36,9 @@ public class GradeAverage {
         counter--;
         double average = (double)total / counter;
         System.out.println("Your average is: " + average);
+
+        System.out.println("Your highest grade is: " + max);
+        System.out.println("Your lowest grade is: " + min);
 
     }
 }
