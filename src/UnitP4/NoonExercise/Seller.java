@@ -20,7 +20,7 @@ public class Seller {
     }
 
     /**
-     * Adds a new produc to the seller's list
+     * Adds a new product to the seller's list
      * @param id
      * @param cat
      * @param price values of the product to be added

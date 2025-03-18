@@ -13,7 +13,7 @@ public class Product {
 
     @Override
     public String toString() {
-        return id  +"\t\t" + price + "\t\t" + category + "\t\t";
+        return id  +"\t\t" + price + "\t\t" + category;
     }
 
     public String getId() {
