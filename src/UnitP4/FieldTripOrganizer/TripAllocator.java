@@ -21,5 +21,6 @@ public class TripAllocator {
     }
 
     public void displayPlacesLeft() {// code missing
+
     }
 }

@@ -6,6 +6,7 @@ public class Student {
     private int sGrade; // grade level of the student
     private String tripAssigned; // trip Title assigned to the student
     public int[] sPreferenceList = new int[10]; // preferred trip numbers
+
     public Student(String sID, String sName, int sGrade,
                    int[]sPreferenceList) {
         this.sId = sId;
