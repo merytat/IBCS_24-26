@@ -1,4 +1,4 @@
-package UnitP5;
+package UnitP5.Animals;
 
 public class Fish extends Pet {
     private String waterType;

@@ -1,4 +1,4 @@
-package UnitP5;
+package UnitP5.Animals;
 
 public class Dog extends Pet {
     private boolean trained;

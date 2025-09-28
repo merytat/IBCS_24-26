@@ -1,6 +1,6 @@
-package UnitP5;
+package UnitP5.Animals;
 
-public class Pet extends Animal{
+public class Pet extends Animal {
     private String name;
     private String size;
 
