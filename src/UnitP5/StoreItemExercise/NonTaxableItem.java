@@ -13,7 +13,7 @@ public class NonTaxableItem extends StoreItem{
     public String toString() {
         return "Name: " + getName() + "\n" +
                 "ItemPrice: " + getPrice() + "\n" +
-                "Tax: " + getTaxRate() + "\n" +
+                "Tax: " + getTaxRate()/100 + "\n" +
                 "Classification: " + classification + "\n\n" +
                 "Payable Price: " + getPayablePrice();
     }

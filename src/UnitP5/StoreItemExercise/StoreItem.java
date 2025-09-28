@@ -19,7 +19,7 @@ public class StoreItem {
     public String toString() {
         return "Name: " + name + "\n" +
                 "ItemPrice: " + price + "\n" +
-                "Tax: " + taxRate + "\n\n" +
+                "Tax: " + taxRate/100 + "\n\n" +
                 "Payable Price: " + getPayablePrice();
     }
 
